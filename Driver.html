@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+<!--
+<style>  
+        html,body{  
+            padding: 0;  
+            margin: 1;  
+            height: 100%;  
+            overflow: hidden;  
+        }  
+        .container{  
+            height: 100%;  
+            width: 100%;  
+            position: relative; 
+			overflow: auto;
+        }  
+        .head{  
+            height: 90px;  
+			border-bottom-style: solid;
+        }  
+        .side{  
+            height: 100%;  
+             
+        }  
+        .content{  
+            
+            position: absolute;  
+            top: 100px;  
+            bottom: 0;  
+            left: 150px;  
+            right: 0;  
+        }  
+		.bottom{
+			position: absolute;  
+            top: 400px;  
+            bottom: 0;  
+            left: 150px;  
+            right: 0;
+		}
+		.footer{
+			width: 100%;
+			height: 50px; 
+			position: fixed;
+			bottom: 0px;
+			left: 0px;
+			overflow: hidden;
+		}
+    </style>  
+-->
+
+<title>Driver</title>
+<style>
+    
+    
+table,tr,td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	background-color: white;
+	color: black;
+}
+    
+    
+</style>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/ManageCSS.css" />
+        </head>
+<h2>Driver Page</h2>
+
+<body>
+    <div class="navbar">
+      <a href="Homepage.html"><img src="img/logo.jpg" class="navbar__logo" alt="CLUK Logo"></a>
+    <input type="checkbox" id="navbar__hamburger" class="navbar__hamburger">
+	<label for="navbar__hamburger" class="navbar__hamburger__label">
+	<span>|||</span>
+	</label>
+	<nav class="sidebar">
+	<ul>
+      <li><a href="Homepage.html" class="sidebar__menu">Home</a></li>
+      <li><a href="Deliveries.html" class="sidebar__stock">Deliveries</a></li>
+        <li><a href="Dashboard.html" class="sidebar__received">Dashboard</a></li>
+        <li> <a href="Inventories.html" class="sidebar__completed">Inventories</a></li>
+        <li> <a href="date.php" class="sidebar__track">Track</a></li>
+	  <li><a href="Manage.php" class="sidebar__about">Manage Staff</a></li>
+	  <li><a href="about-w.html" class="sidebar__about">About</a></li>
+	  <li><a href="logOut.php" class="sidebar__logout">Log Out</a></li>
+	  
+	  </ul>
+    </nav>
+	</div>
+    <main>
+<div class="container">
+
+<iframe src="DriverApproved.php" name="outbound" width="1000" height="300" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="Auto" allowtransparency="yes" align=center></iframe>
+<h2>outbound:</h2>
+<iframe src="outbound.php" name="outbound" width="1000" height="300" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="Auto" allowtransparency="yes" align=center></iframe>
+
+<form>
+
+<button type="button" class="btn btn-primary" onclick="window.location.href='requested.php'">Check Request Page</button>
+			
+</form>
+    
+</div>
+<div class="bottom">
+
+
+
+
+</div>
+</main>
+</body>
+</html>
+
+

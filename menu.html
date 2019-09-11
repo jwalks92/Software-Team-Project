@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> CLUK Stock Management </title>
+    <link rel="stylesheet" type="text/css" href="css/menu.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="JavaScript.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="navbar.html" class="navbar__home">Home</a>
+        <a href="about.html" class="navbar__about">About</a>
+        <a href="help.html" class="navbar__help">Help</a>
+        <form class="navbar__search">
+            <input class="navbar__search__searchbar" type="text" placeholder="Search...">
+            <button class="navbar__search__button">Search</button>
+        </form>
+        <a href="navbar.html"><img src="img/logo.jpg" class="navbar__logo" alt="CLUK logo"></a>
+    </nav>
+    <nav class="sidebar">
+        <a href="menu.html" class="sidebar__menu">Menu</a>
+        <a href="receipt.html" class="sidebar__receipt">Receipt</a>
+        <a href="stock.html" class="sidebar__stock">Stock</a>
+        <a href="orders.html" class="sidebar__orders">Orders</a>
+    </nav>
+    <main>
+        <section class="menu">
+            <button class="menu__chicken" onclick="menuOption('chicken')">
+                <h4 class="menu__chicken__heading">3 Pieces of Southern Fried Chicken</h4>
+                <!-- <img src="img/chicken.png" class="menu__chicken__img"> -->
+                <p class="menu__chicken__desc">Random mix of chicken thigh, drumstick and wing pieces.</p>
+            </button>
+            <button class="menu__chicken-nobone" onclick="menuOption('chicken-nobone')">
+                <h4 class="menu__chicken-nobone__heading">3 Boneless Southern Fried Chicken Strips</h4>
+                <!-- <img src="img/chicken-nobone.png" class="menu__chicken-nobone__img"> -->
+                <p class="menu__chicken-nobone__desc">Strips of boneless southern fried chicken.</p>
+            </button>
+            <button class="menu__burger" onclick="menuOption('burger')">
+                <h4 class="menu__burger__heading">CLUK Burger</h4>
+                <!-- <img src="img/burger.png" class="menu__burger__img"> -->
+                <p class="menu__burger__desc">Sesame seed bun, boneless southern fried chicken breast fillet, mayonnaise and lettuce.</p>
+            </button>
+            <button class="menu__s-burger" onclick="menuOption('s-burger')">
+                <h4 class="menu__s-burger__heading">CLUK Super Burger</h4>
+                <!-- <img src="img/s-burger.png" class="menu__s-burger__img"> -->
+                <p class="menu__s-burger__desc">Sesame seed bun, boneless southern fried chicken breast fillet, mayonnaise, cheese, hash brown and lettuce.</p>
+            </button>
+            <button class="menu__veg-strips" onclick="menuOption('veg-strips')">
+                <h4 class="menu__veg-strips__heading">3 Vegetarian Southern Fried Strips</h4>
+                <!-- <img src="img/veg-strips.png" class="menu__veg-strips__img"> -->
+                <p class="menu__veg-strips__desc">Mycoprotein based meat substitute southern fried strips.</p>
+            </button>
+            <button class="menu__veg-burger" onclick="menuOption('veg-burger')">
+                <h4 class="menu__veg-burger__heading">CLUK Vegetarian Burger</h4>
+                <!-- <img src="img/veg-burger.png" class="menu__veg-burger__img"> -->
+                <p class="menu__veg-burger__desc">Sesame seed bun, mycoprotein based meat substitute Southern fried burger, mayonnaise and lettuce.</p>
+            </button>
+            <button class="menu__veg-s-burger" onclick="menuOption('veg-s-burger')">
+                <h4 class="menu__veg-s-burger__heading">CLUK Vegetarian Super Burger</h4>
+                <!-- <img src="img/veg-s-burger.png" class="menu_veg-s-burger__img"> -->
+                <p class="menu__veg-s-burger__desc">Sesame seed bun, mycoprotein based meat substitute southern fried burger, mayonnaise, cheese, hash brown and lettuce.</p>
+            </button>
+            <button class="menu__fries" onclick="menuOption('fries')">
+                <h4 class="menu__fries__heading">Portion of Fries</h4>
+                <!-- <img src="img/fries.png" class="menu__fries__img"> -->
+                <p class="menu__fries__desc">120g serving of cooked fries.</p>
+            </button>
+            <button class="menu__cola" onclick="menuOption('cola')">
+                <h4 class="menu__cola__heading">Cola Flavoured Drink</h4>
+                <!-- <img src="img/cola.png" class="menu__cola__img"> -->
+                <p class="menu__cola__desc">750ml serving. Contains approximately 50ml of cola syrup.</p>
+            </button>
+        </section>
+    </main>
